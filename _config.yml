@@ -1,3 +1,4 @@
 name: Jessi Thompson | Computer Science
 markdown: kramdown
 theme: jekyll-theme-cayman
+permalink: /blog/:year/:month/:day/:title
