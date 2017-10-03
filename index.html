@@ -372,10 +372,18 @@
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
+              <div class="col-md-6">
+                <div class="form-group">
                     <textarea name="message" placeholder="Your message"></textarea>
-                    <input type="hidden" name="_subject" value="Website contact" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                    <input type="submit" value="Send">
+                    <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit" value="send">Send Message</button>
+                </div>
+              </div>
             </form>
             <script>
                 var contactform =  document.getElementById('contactform');
